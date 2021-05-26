@@ -1,0 +1,19 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: rem(24px);
+    font-size: rem(16px);
+
+    @media screen and (min-width: 768px) {
+        line-height: rem(26px);
+        font-size: rem(18px);
+    }
+}
