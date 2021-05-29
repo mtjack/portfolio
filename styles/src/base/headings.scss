@@ -4,7 +4,7 @@ h3,
 .mimic-h1,
 .mimic-h2,
 .mimic-h3 {
-    color: green;
+    color: #404040;
     font-weight: 600;
     margin: 0 0 rem(22.5px);
 }
@@ -19,8 +19,8 @@ h3,
     }
 
     @media screen and (min-width: 1024px){
-        font-size: rem(50px);
-        line-height: rem(60px);
+        font-size: rem(40px);
+        line-height: rem(50px);
     }
 }
 
