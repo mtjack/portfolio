@@ -1,11 +1,13 @@
 .left-col {
     display: flex;
-    flex-basis: 40%;
-    margin: 0 rem(20px) rem(15px) 0;
-    padding: rem(10px);
+    flex-grow: 1;
+    margin: 0 0 rem(15px) 0;
+    padding: 0;
     background-color: white;
-
+    
     @media screen and (min-width: 768px){
+        margin-right: rem(20px);
         border-radius: 10px;
     }
+
 }
