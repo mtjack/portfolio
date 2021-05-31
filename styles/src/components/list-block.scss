@@ -1,3 +1,4 @@
+/*
 .list-block {
     color: #404040;
     padding: rem(8px);
@@ -34,4 +35,24 @@
         justify-content: center;
       }
     
+}
+*/
+
+.list-block {
+  padding: rem(10px);
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon {
+    fill: #404040;
+  }
+
+  &__text {
+    padding-left: rem(10px);
+    color: #404040
+  }
 }
