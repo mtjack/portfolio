@@ -7,9 +7,20 @@
         border-radius: rem(10px);
     }
 
+    &__line {
+        border: 0;
+        border-top: 1px solid #404040;
+        margin: rem(20px) 0;
+    }
+
+    &__heading {
+        margin-bottom: 0;
+    }
+
     &__date-text {
         display: flex;
         align-items: center;
+        margin-top: 0px;
     }
 
     &__date-icon {
