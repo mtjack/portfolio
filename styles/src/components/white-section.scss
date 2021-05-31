@@ -1,9 +1,19 @@
 .white-section {
     background-color: white;
-    padding: rem(10px);
+    padding: rem(20px);
     margin: 0 0 rem(20px) 0;
 
     @media screen and (min-width:768px){
         border-radius: rem(10px);
+    }
+
+    &__date-text {
+        display: flex;
+        align-items: center;
+    }
+
+    &__date-icon {
+        padding-right: 10px;
+        fill: #404040;
     }
 }
