@@ -27,4 +27,17 @@
         padding-right: 10px;
         fill: #404040;
     }
+
+    &__skills {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__skills-icon {
+        width: 20%;
+        height: rem(48px);
+        padding-bottom: rem(25px);
+    }
 }
