@@ -1,5 +1,7 @@
 .layout {
-    background-color: #e6e6e6;
+    background-image: url("/home/matthew/Development/portfolio/images/svg's/Page-Turner.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
 
     @media screen and(min-width: 768px){
@@ -15,7 +17,6 @@
 
         @media screen and (min-width: 768px){
             flex-direction: row;
-            
         }
 
         @media screen and (min-width: 1024px){
