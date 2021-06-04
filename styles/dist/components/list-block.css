@@ -1,0 +1,11 @@
+.list-block {
+  padding: rem(10px); }
+  .list-block__item {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .list-block__icon {
+    fill: #404040; }
+  .list-block__text {
+    padding-left: rem(10px);
+    color: #404040; }

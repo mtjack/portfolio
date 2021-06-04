@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+.mimic-h1,
+.mimic-h2,
+.mimic-h3 {
+  color: #404040;
+  font-weight: 600;
+  margin: 0 0 rem(22.5px); }
+
+.mimic-h1 {
+  font-size: rem(34px);
+  line-height: rem(40px); }
+  @media screen and (min-width: 768px) {
+    .mimic-h1 {
+      font-size: rem(40px);
+      line-height: rem(50px); } }
+  @media screen and (min-width: 1024px) {
+    .mimic-h1 {
+      font-size: rem(40px);
+      line-height: rem(50px); } }
+
+.mimic-h2 {
+  font-size: rem(26px);
+  line-height: rem(32px); }
+  @media screen and (min-width: 768px) {
+    .mimic-h2 {
+      font-size: rem(32px);
+      line-height: rem(40px); } }
+  @media screen and (min-width: 1024px) {
+    .mimic-h2 {
+      font-size: rem(40px);
+      line-height: rem(50px); } }
+
+.mimic-h3 {
+  font-size: rem(20px);
+  line-height: rem(28px); }
+  @media screen and (min-width: 768px) {
+    .mimic-h3 {
+      font-size: rem(26px);
+      line-height: rem(32px); } }
+  @media screen and (min-width: 1024px) {
+    .mimic-h3 {
+      font-size: rem(32px);
+      line-height: rem(40px); } }

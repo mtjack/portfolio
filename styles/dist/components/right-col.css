@@ -1,0 +1,6 @@
+.right-col {
+  display: flex;
+  flex-direction: column; }
+  @media screen and (min-width: 768px) {
+    .right-col {
+      flex-basis: 70%; } }

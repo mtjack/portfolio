@@ -1,0 +1,29 @@
+.white-section {
+  background-color: white;
+  padding: rem(20px);
+  margin: 0 0 rem(20px) 0; }
+  @media screen and (min-width: 768px) {
+    .white-section {
+      border-radius: rem(10px); } }
+  .white-section__line {
+    border: 0;
+    border-top: 1px solid #404040;
+    margin: rem(20px) 0; }
+  .white-section__heading {
+    margin-bottom: 0; }
+  .white-section__date-text {
+    display: flex;
+    align-items: center;
+    margin-top: 0px; }
+  .white-section__date-icon {
+    padding-right: 10px;
+    fill: #404040; }
+  .white-section__skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap; }
+  .white-section__skills-icon {
+    width: 20%;
+    height: rem(48px);
+    padding-bottom: rem(25px); }
