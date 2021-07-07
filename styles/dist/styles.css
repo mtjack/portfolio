@@ -64,7 +64,7 @@ h3,
       line-height: 2.22222rem; } }
 
 .layout {
-  background-image: url("/home/matthew/Development/portfolio/images/svg's/Page-Turner.svg");
+  background-image: url("images/svg's/Page-Turner.svg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh; }
