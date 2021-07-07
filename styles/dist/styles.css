@@ -64,7 +64,7 @@ h3,
       line-height: 2.22222rem; } }
 
 .layout {
-  background-image: url("images/svg's/Page-Turner.svg");
+  background: linear-gradient(127deg, #00fcc2 50%, #197382 50%);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh; }
